@@ -1,34 +1,24 @@
 {
   "name": "stunning-octo-eureka",
   "version": "1.0.0",
-  "description": "A template for building AI-enabled Slack apps",
-  "type": "module",
+  "description": "Slack agent with GitHub Copilot coding automations",
   "main": "app.js",
+  "type": "module",
   "scripts": {
-    "check": "npx tsc --checkJs --noEmit --esModuleInterop --target esnext --module nodenext --moduleResolution nodenext app.js",
     "start": "node app.js",
-    "lint": "npx @biomejs/biome check *.js agent/ listeners/",
-    "lint:fix": "npx @biomejs/biome check --write *.js agent/ listeners/"
+    "dev": "nodemon app.js",
+    "lint": "biome check .",
+    "format": "biome format --write ."
   },
-  "author": "Mridul Ahsan",
+  "keywords": ["slack", "bolt", "copilot", "agent"],
+  "author": "Mridul Ahsan Robin",
   "license": "MIT",
-  "keywords": [
-    "slack",
-    "bolt",
-    "slackapi"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ra7049229-byte/stunning-octo-eureka.git"
-  },
-  "bugs": {
-    "url": "https://github.com/ra7049229-byte/stunning-octo-eureka/issues"
-  },
   "dependencies": {
-    "@slack/bolt": "^5.1.0",
-    "dotenv": "~18.0.4",
-    "openai": "^7.23.0"
+    "@slack/bolt": "^3.17.1",
+    "dotenv": "^16.4.5"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.5.14",
-    "@slack/cli-hooks": "^2.0.0"
+    "nodemon": "^3.1.0",
+    "@biomejs/biome": "^1.8.0"
+  }
+}
