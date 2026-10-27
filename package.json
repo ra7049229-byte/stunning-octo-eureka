@@ -32,5 +32,3 @@
   "devDependencies": {
     "@biomejs/biome": "2.5.14",
     "@slack/cli-hooks": "^2.0.0"
-  }
-}s
