@@ -1,5 +1,5 @@
 {
-  "name": "bolt-js-ai-agent-template",
+  "name": "stunning-octo-eureka",
   "version": "1.0.0",
   "description": "A template for building AI-enabled Slack apps",
   "type": "module",
@@ -10,7 +10,7 @@
     "lint": "npx @biomejs/biome check *.js agent/ listeners/",
     "lint:fix": "npx @biomejs/biome check --write *.js agent/ listeners/"
   },
-  "author": "Slack Technologies, LLC",
+  "author": "Mridul Ahsan",
   "license": "MIT",
   "keywords": [
     "slack",
@@ -19,10 +19,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/slack-samples/bolt-js-assistant-template.git"
+    "url": "https://github.com/ra7049229-byte/stunning-octo-eureka.git"
   },
   "bugs": {
-    "url": "https://github.com/slack-samples/bolt-js-assistant-template/issues"
+    "url": "https://github.com/ra7049229-byte/stunning-octo-eureka/issues"
   },
   "dependencies": {
     "@slack/bolt": "^5.1.0",
@@ -31,8 +31,6 @@
   },
   "devDependencies": {
     "@biomejs/biome": "2.5.14",
-    "@slack/cli-hooks": "^2.0.0",
-    "@types/node": "^24.19.0",
-    "typescript": "^7.0.2"
+    "@slack/cli-hooks": "^2.0.0"
   }
 }
