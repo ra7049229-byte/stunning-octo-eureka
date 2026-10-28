@@ -3,6 +3,7 @@
   "formatter": {
     "enabled": true,
     "formatWithErrors": false,
+    "includes": ["**"],
     "attributePosition": "auto",
     "indentStyle": "space",
     "indentWidth": 2,
@@ -14,13 +15,17 @@
       "quoteStyle": "single"
     }
   },
-  "organizeImports": {
-    "enabled": true
-  },
   "linter": {
     "enabled": true,
     "rules": {
-      "recommended": true
+      "preset": "recommended"
+    }
+  },
+  "assist": {
+    "actions": {
+      "source": {
+        "organizeImports": "on"
+      }
     }
   },
   "vcs": {

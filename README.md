@@ -6,10 +6,10 @@ This Bolt for JavaScript template demonstrates how to build [AI Apps](https://do
 
 Setting up this app can provide you with an AI agent that enables the following flow:
 
-* Users open the assistant side panel in Slack and see suggested prompts.
-* The app calls OpenAI's API when a user selects a prompt or sends a message.
-* The app streams in its response, which can be a combination of text and tasks.
-* Users provide feedback via buttons.
+- Users open the assistant side panel in Slack and see suggested prompts.
+- The app calls OpenAI's API when a user selects a prompt or sends a message.
+- The app streams in its response, which can be a combination of text and tasks.
+- Users provide feedback via buttons.
 
 ## Setup
 
@@ -56,6 +56,7 @@ After the Slack app has been created you're all set to configure the LLM provide
 <details><summary><strong>  Using Terminal </strong></summary>
 
 #### Create Your Slack App
+
 1. Open [https://api.slack.com/apps/new](https://api.slack.com/apps/new) and choose "From an app manifest"
 2. Choose the workspace you want to install the application to
 3. Copy the contents of [manifest.json](./manifest.json) into the text box that says `*Paste your manifest code here*` (within the JSON tab) and click _Next_
@@ -161,11 +162,13 @@ The `tools` directory contains app-specific functions for the LLM to call.
 </p>
 
 ### 🚀 About Me
+
 I am a passionate developer based in **Riyadh, Saudi Arabia**, working at **AR Tech Company** (Oliya Road). I specialize in building smart automation tools, AI agents, and web applications entirely from my mobile device using **Node.js**, and **GitHub**.
 
 ---
 
 ### 🛠️ Tech Stack & Skills
+
 - **AI & Automation:** OpenAI API, Slack Bolt (JavaScript)
 - **Development Tools:** VS Code Web, GitHub CLI
 - **Web & E-commerce:** WordPress, Blogger, Odoo, HTML/CSS
@@ -174,6 +177,7 @@ I am a passionate developer based in **Riyadh, Saudi Arabia**, working at **AR T
 ---
 
 ### 📌 Featured Projects
+
 - **[RS-abir](https://github.com/ra7049229-byte/RS-abir):** AI Agent App template built and deployed straight from mobile.
 - **[ar-abir-chat](https://github.com/ra7049229-byte/ar-abir-chat):** Lightweight Slack chat application.
 - **[ar-lead-bot](https://github.com/ra7049229-byte/ar-lead-bot):** Slack bot designed for automated lead capture.
@@ -181,6 +185,7 @@ I am a passionate developer based in **Riyadh, Saudi Arabia**, working at **AR T
 ---
 
 ### 📫 Connect with Me
+
 - **Email:** [ra7049229@gmail.com](mailto:ra7049229@gmail.com)
 - **Portfolio / Blog:** [artech.wordpress.com](http://artech.wordpress.com)
 - **Location:** Riyadh, Saudi Arabia

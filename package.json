@@ -10,15 +10,21 @@
     "lint": "biome check .",
     "format": "biome format --write ."
   },
-  "keywords": ["slack", "bolt", "copilot", "agent"],
+  "keywords": [
+    "slack",
+    "bolt",
+    "copilot",
+    "agent"
+  ],
   "author": "Mridul Ahsan Robin",
   "license": "MIT",
   "dependencies": {
-    "@slack/bolt": "^3.17.1",
-    "dotenv": "^16.4.5"
+    "@slack/bolt": "^5.1.0",
+    "dotenv": "~18.0.4",
+    "openai": "^7.23.0"
   },
   "devDependencies": {
-    "nodemon": "^3.1.0",
-    "@biomejs/biome": "^1.8.0"
+    "@biomejs/biome": "^2.5.14",
+    "nodemon": "^3.1.0"
   }
 }
