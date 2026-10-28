@@ -158,17 +158,16 @@ The `tools` directory contains app-specific functions for the LLM to call.
 
 <p align="left">
   <img src="https://img.shields.io/badge/AI_Agent_Developer-Riyadh-blue?style=for-the-badge&logo=openai" alt="AI Agent Developer">
-  <img src="https://img.shields.io/badge/Mobile_First-Termux_%26_GitHub-green?style=for-the-badge&logo=github" alt="Mobile Dev">
 </p>
 
 ### 🚀 About Me
-I am a passionate developer based in **Riyadh, Saudi Arabia**, working at **AR Tech Company** (Oliya Road). I specialize in building smart automation tools, AI agents, and web applications entirely from my mobile device using **Termux**, **Node.js**, and **GitHub**.
+I am a passionate developer based in **Riyadh, Saudi Arabia**, working at **AR Tech Company** (Oliya Road). I specialize in building smart automation tools, AI agents, and web applications entirely from my mobile device using **Node.js**, and **GitHub**.
 
 ---
 
 ### 🛠️ Tech Stack & Skills
 - **AI & Automation:** OpenAI API, Slack Bolt (JavaScript)
-- **Development Tools:** Termux (Android), VS Code Web, GitHub CLI
+- **Development Tools:** VS Code Web, GitHub CLI
 - **Web & E-commerce:** WordPress, Blogger, Odoo, HTML/CSS
 - **Languages:** Bangla, Hindi, Arabic, English
 
